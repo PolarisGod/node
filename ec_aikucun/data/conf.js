@@ -24,10 +24,10 @@ let www={
 // };
 let enablelist= {
     security: false,
-	service: {
-        post: 'http://127.0.0.1:8001',
-        path:'/service/ec_service.io'
-    },
+	// service: {
+    //     post: 'http://127.0.0.1:8001',
+    //     path:'/service/ec_service.io'
+    // },
     interface: true
 };
 
@@ -63,21 +63,21 @@ module.exports={
     www: www,
     enablelist: enablelist, //功能启用列表
     "jdbc": jdbc,
-    mongodb:{
-        host: '192.168.15.185',
-        // host:'127.0.0.1',
-        // host:'tel.runsa.cn',
-        port: 27017,
-        user: 'runsa',
-        pwd: 'Runsa&345',
-        master: 'master'
-    },
-    redis:{
-        host:'127.0.0.1',
-        port:6379,
-        // pwd:'123456',
-        db:0
-    },
+    // mongodb:{
+    //     host: '192.168.15.185',
+    //     // host:'127.0.0.1',
+    //     // host:'tel.runsa.cn',
+    //     port: 27017,
+    //     user: 'runsa',
+    //     pwd: 'Runsa&345',
+    //     master: 'master'
+    // },
+    // redis:{
+    //     host:'127.0.0.1',
+    //     port:6379,
+    //     // pwd:'123456',
+    //     db:0
+    // },
     interfaceList:interfaceList,
     module:{
         "cors":false,

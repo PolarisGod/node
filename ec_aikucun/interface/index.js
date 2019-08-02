@@ -3,8 +3,8 @@
  */
 //var workerFarm = require('worker-farm');
 //var iProcess = workerFarm({autoStart:false,maxConcurrentWorkers:1},require.resolve('./app')); //子进程
-let iProcess=require('./app'); //主进程
-/**
- *@type {{sysParms,common}}
- */
-module.exports=iProcess;
+// let iProcess=require('./app'); //主进程
+// /**
+//  *@type {{sysParms,common}}
+//  */
+// module.exports=iProcess;
